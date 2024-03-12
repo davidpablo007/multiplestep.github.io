@@ -1,11 +1,11 @@
-const steps = document.querySelectorAll(".stp"); 
-const circleSteps = document.querySelectorAll(".step"); 
-const formInputs = document.querySelectorAll(".step-1 form input"); 
-const plans = document.querySelectorAll(".plan-card"); 
-const switcher = document.querySelector(".switch"); 
-const addons = document.querySelectorAll(".box"); 
-const total = document.querySelector(".total b"); 
-const planPrice = document.querySelector(".plan-price"); 
+const steps = document.querySelectorAll(".stp"); //GET ALL STEPS
+const circleSteps = document.querySelectorAll(".step"); //GET ALL STEP CIRCLES
+const formInputs = document.querySelectorAll(".step-1 form input"); //GET ALL STEP-1 INPUTS
+const plans = document.querySelectorAll(".plan-card"); // GET ALL THE  PLANS
+const switcher = document.querySelector(".switch"); // GET ALL THE SWITCHER
+const addons = document.querySelectorAll(".box"); //GET ALL THE ADDONS
+const total = document.querySelector(".total b"); // GET THE TOTAL PRICE
+const planPrice = document.querySelector(".plan-price"); // GET PRICE OF THE SELECTED PLAN
 let time;
 let currentStep = 1;
 let currentCircle = 0;
